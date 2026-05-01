@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Posters from './pages/Posters'
-import Video from './pages/Video'
+import Frames from './pages/Frames'
 import Journal from './pages/Journal'
 import About from './pages/About'
 
@@ -21,7 +21,7 @@ function App() {
                 <div className="hidden md:flex gap-8 text-sm text-[#2c2418]/70">
                   <Link to="/" className="hover:text-[#8b7355] transition">Home</Link>
                   <Link to="/posters" className="hover:text-[#8b7355] transition">Posters</Link>
-                  <Link to="/video" className="hover:text-[#8b7355] transition">Video</Link>
+                  <Link to="/frames" className="hover:text-[#8b7355] transition">Frames</Link>
                   <Link to="/journal" className="hover:text-[#8b7355] transition">Journal</Link>
                   <Link to="/about" className="hover:text-[#8b7355] transition">About</Link>
                 </div>
@@ -35,7 +35,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/posters" element={<Posters />} />
-              <Route path="/video" element={<Video />} />
+              <Route path="/frames" element={<Frames />} />
               <Route path="/journal" element={<Journal />} />
               <Route path="/about" element={<About />} />
             </Routes>
