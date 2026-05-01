@@ -175,7 +175,7 @@ const VideoCard = ({ item, index, isVisible }) => {
   )
 }
 
-const Video = () => {
+const Frames = () => {
   const [isLoaded, setIsLoaded] = useState(false)
   const [visibleCards, setVisibleCards] = useState(new Set())
   const containerRef = useRef(null)
@@ -269,4 +269,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default Frames

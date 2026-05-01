@@ -20,7 +20,7 @@ const Home = () => {
       id: 2,
       title: 'Frames',
       description: '	archive of fleeting moments',
-      href: '/video',
+      href: '/frames',
     },
     {
       id: 3,
