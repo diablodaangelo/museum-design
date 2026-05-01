@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Posters from './pages/Posters'
-import Frames from './pages/Frames'
+import Frames from './pages/Video'
 import Journal from './pages/Journal'
 import About from './pages/About'
 
